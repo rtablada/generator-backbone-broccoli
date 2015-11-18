@@ -20,8 +20,8 @@
     "backbone": "^1.2.3",
     "font-awesome": "^4.4.0",
     "jquery": "^2.1.4",
-    "loader.js": "^3.4.0",
     "normalize-css": "^2.3.1",
+    "requirejs": "^2.1.20",
     "yoga-sass": "^0.1.1"
   }
 }

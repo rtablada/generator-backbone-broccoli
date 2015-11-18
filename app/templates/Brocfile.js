@@ -14,15 +14,15 @@ var stylePaths = [
 var styles = new Sass(stylePaths, 'app.scss', 'app.css');
 
 var vendorFiles = [
-  'loader.js',
   'jquery.js',
   'underscore.js',
   'backbone.js',
+  'require.js',
 ];
 
 var vendorScripts = new Merge([
   'node_modules/jquery/dist',
-  'node_modules/loader.js',
+  'node_modules/requirejs',
   'node_modules/backbone',
   'node_modules/underscore',
 ], {overwrite: true});
