@@ -14,5 +14,13 @@
     "keystone-utils": "^0.3.0",
     "lodash": "^3.10.1",
     "yeoman-generator": "^0.21.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtablada/generator-backbone-broccoli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rtablada/generator-backbone-broccoli/issues"
+  },
+  "homepage": "https://github.com/rtablada/generator-backbone-broccoli#readme"
 }
