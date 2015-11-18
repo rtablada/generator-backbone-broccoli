@@ -77,7 +77,9 @@ ProjectGenerator.prototype.project = function project() {
   var _this = this;
 
   this.template('_package.json', 'package.json');
-  this.template('Brocfile.js', 'Brocfile.js');
+  this.copy('Brocfile.js', 'Brocfile.js');
+  this.copy('.jshintrc', '.jshintrc');
+  this.copy('.gitignore', '.gitignore');
 
   copyDir.forEach(function(file) {
     _this.bulkDirectory(file, file);
