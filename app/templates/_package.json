@@ -1,0 +1,27 @@
+{
+  "name": "<%= utils.slug(projectName) %>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "broccoli": "^0.16.9",
+    "broccoli-babel-transpiler": "^5.5.0",
+    "broccoli-funnel": "^1.0.0",
+    "broccoli-merge-trees": "^1.0.0",
+    "broccoli-sass": "^0.7.0",
+    "broccoli-sourcemap-concat": "^1.1.6"
+  },
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.1.4",
+    "loader.js": "^3.4.0",
+    "normalize-css": "^2.3.1",
+    "yoga-sass": "^0.1.1"
+  }
+}
